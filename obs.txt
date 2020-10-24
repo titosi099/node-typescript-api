@@ -1,0 +1,8 @@
+AULA 1
+    
+    setup inicial do projeto 
+    passo 1 com 'git init' configurando o repositorio git
+    passo 2 com o 'npm init' configurando o package.json
+    passo 3 instalando e configurando o typescript
+    passo 4 instalando e configurando 'module-alias'' 
+
