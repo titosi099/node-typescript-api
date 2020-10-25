@@ -4,5 +4,14 @@ AULA 1
     passo 1 com 'git init' configurando o repositorio git
     passo 2 com o 'npm init' configurando o package.json
     passo 3 instalando e configurando o typescript
-    passo 4 instalando e configurando 'module-alias'' 
+    passo 4 instalando e configurando 'module-alias'
+
+Aula 2
+
+    instalação e configuração do eslint
+    yarn add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
+    criando o arquivo de configuração do lint .eslintrc
+    e alterar o package.json com adicionando as linhas abaixo no 'scrpts':
+    "lint": "eslint ./src ./test --ext .ts",
+    "lint:fix": "eslint ./src ./test --ext .ts --fix"
 
