@@ -1,17 +1,29 @@
 AULA 1
     
-    setup inicial do projeto 
-    passo 1 com 'git init' configurando o repositorio git
-    passo 2 com o 'npm init' configurando o package.json
-    passo 3 instalando e configurando o typescript
-    passo 4 instalando e configurando 'module-alias'
+  setup inicial do projeto 
+  passo 1 com 'git init' configurando o repositorio git
+  passo 2 com o 'npm init' configurando o package.json
+  passo 3 instalando e configurando o typescript
+  passo 4 instalando e configurando 'module-alias'
 
 Aula 2
 
-    instalação e configuração do eslint
-    yarn add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
-    criando o arquivo de configuração do lint .eslintrc
-    e alterar o package.json com adicionando as linhas abaixo no 'scrpts':
-    "lint": "eslint ./src ./test --ext .ts",
-    "lint:fix": "eslint ./src ./test --ext .ts --fix"
+  instalação e configuração do eslint
+  yarn add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
+  criando o arquivo de configuração do lint .eslintrc
+  e alterar o package.json com adicionando as linhas abaixo no 'scrpts':
+  "lint": "eslint ./src ./test --ext .ts",
+  "lint:fix": "eslint ./src ./test --ext .ts --fix"
 
+AULA 3 
+
+  instalação do 'ts-node-dev'
+  modulo que escuta automaticamente as mudanças e recompila o código 
+  utilizando o módulo ts-node
+
+AULA 4
+
+  Configuração do Jest para desenvolvimento dos testes de integração na aplicação 
+  yarn add -D jest ts-jest @types/jest
+  e também a instalação do supertest
+  yarn add -D supertest @types/supertest
